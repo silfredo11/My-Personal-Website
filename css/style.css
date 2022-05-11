@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --prymari-color: #15171A;
+    --description-color: #738A94;
+    --text-color: #FFFFFF;
+    --principal-text-color: #434952;
+    --description-perfil-color: #90A2AA;
+
+    --H1-font: 5.5rem;
+    --H2-font:4.2rem;
+    --H3-font-title: 3.2rem;
+    --H3-font-movil: 2.6rem;
+    --description-font: 2.2rem;
+    --biger-font: 1.8rem;
+    --large-font:1.6rem;
+    --nav-font:1.3rem;
+    --small-font: 1.2rem;
+}
