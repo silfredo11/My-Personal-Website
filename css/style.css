@@ -143,5 +143,39 @@ header nav ul li{
     border-bottom: 1px solid var(--border-color);
 }
 
+/*Footer code starts here*/
 
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: var(--prymari-color);
+    display: flex;
+    flex-direction: column;
+}
+.footer__socialMedia{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.footer__socialMedia-firt{
+    display: flex;
+    align-items: center;
+}
+.footer__socialMedia-firt .socialMedia__img{
+    background-image: url("https://img.icons8.com/cute-clipart/344/github.png");
+}
+.footer__socialMedia-second .socialMedia__img{
+    background-image: url("https://img.icons8.com/color/344/gmail-new.png");
+}
+.socialMedia__img{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer p{
+    color: white;
+}
 
