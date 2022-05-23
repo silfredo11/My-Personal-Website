@@ -62,7 +62,7 @@ header nav ul li{
 
 /* Here start the main */
 
-.main__home{
+.main__home, .main__portafolio{
     width: 90%;
     margin: 0 auto;
 }
@@ -208,9 +208,6 @@ header nav ul li{
     border: none;
 }
 
-
-
-
 /*Footer code starts here*/
 
 footer{
@@ -275,4 +272,93 @@ footer p{
     line-height: 18px;
     color: var(--text-color);
     text-align: center;
+}
+
+/* Here start the portafolio main */
+
+.portafolio__proyectos{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.portafolio__proyectos-card{
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.portafolio__title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    color: var(--prymari-color);
+}
+.portafolio__proyectos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.portafolio__proyectos-card .proyectos__card-image{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.proyecto__nasaWebsite-image{
+    background-image: url("https://i.postimg.cc/bvWgq99g/Nasa-website-1.png");
+}
+.proyecto__legoWebsite-image{
+    background-image: url("https://i.postimg.cc/T36Y4KL4/Lego-website-1.png");
+}
+.proyecto__nftcard-image{
+    background-image: url("https://i.postimg.cc/bNQqkqCH/nftcard-1.png");
+}
+.proyecto__resumenDeCompra-image{
+    background-image: url("https://i.postimg.cc/9M6jwkyn/resumen-de-compra-1.png");
+}
+.proyectos__card-button{
+    margin-top: 20px;
+}
+
+.description__card{
+    margin-bottom: 30px;
+}
+
+.portafolio__gratitude{
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.portafolio__gratitude-title{
+    font-size: 2.2rem;
+    color: var(--prymari-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+.portafolio__gratitude-description{
+    font-size: 1.6rem;
+    color: var(--description-perfil-color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.portafolio__technology{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.portafolio__technology-title{
+    font-size: 2.2rem;
+    color: var(--prymari-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+.portafolio__technology-used li{
+    font-size: 1.6rem;
+    color: var(--prymari-color);
+    line-height: 24px;
+    list-style: disc ;
+    list-style-position: inside;
 }
