@@ -483,3 +483,44 @@ footer p{
     background-image: url("https://static.platzi.com/media/user_upload/nuevo%20enfoque%20fuera%20frustracion-05ab8737-c341-4b88-b368-a1aef0b583e8.jpg");
 }
 
+/* Here start the tutorial style */
+
+.main__tutorial {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__tutorial h2{
+    margin: 50px 0 20px 0;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--prymari-color);
+}
+.main__tutorial p, .main__tutorial li{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--content-color);
+}
+h2 + p {
+    margin-bottom: 20px;
+}
+.main__tutorial div {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main__liveServer ol div:nth-child(2){
+    background-image: url("https://i.postimg.cc/ZqcH3DWL/live-Server1.jpg");
+}
+.main__liveServer ol div:nth-child(4){
+    background-image: url("https://i.postimg.cc/s2Grn7Rq/live-Server2.jpg");
+}
+.main__liveServer ol div:nth-child(6){
+    background-image: url("https://i.postimg.cc/Y0RK4x1G/live-Server3.jpg");
+}
+.main__liveServer ol div:nth-child(8){
+    background-image: url("https://i.postimg.cc/6q9FNGD9/live-Server4.jpg");
+}
