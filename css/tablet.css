@@ -79,3 +79,25 @@ footer{
     margin-left: 40px;
     margin-top: 10px;
 }
+
+/* Here start the home main */
+
+.home__aboutme-image{
+    width: 347px;
+    height: 457px;
+}
+.home__aboutme-title{
+ font-size: 5.5rem;
+ font-weight: 400;
+ text-align: center;
+}
+.home_aboutme-description{
+    font-size: 2.6rem;
+    line-height: 39px;
+}
+
+.title__card{
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-align: center;
+}
