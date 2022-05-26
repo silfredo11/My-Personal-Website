@@ -1,0 +1,81 @@
+:root{
+    --prymari-color: #15171A;
+    --description-color: #738A94;
+    --text-color: #FFFFFF;
+    --principal-text-color: #434952;
+    --description-perfil-color: #90A2AA;
+    --border-color: #E6E9ED;
+    --content-color: #303a3e;
+
+    --H1-font: 5.5rem;
+    --H2-font:4.2rem;
+    --H3-font-title: 3.2rem;
+    --H3-font-movil: 2.6rem;
+    --description-font: 2.2rem;
+    --biger-font: 1.8rem;
+    --large-font:1.6rem;
+    --nav-font:1.3rem;
+    --small-font: 1.2rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header section {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+header section picture {
+    width: 60px;
+    height: 60px;
+}
+header section picture  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+header section p {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+header nav{
+    width: auto;
+    margin-right: 40px;
+}
+header nav ul{
+    width: auto;
+}
+header nav ul li{
+    font-size: 1.3rem;
+    margin-right: 12px;
+}
+header nav ul li:last-child{
+    margin-right: 0px;
+}
+
+/* Here start the footer */
+
+footer{
+    flex-direction: row;
+}
+.footer__socialMedia{
+   flex-direction: column;
+   justify-content: center;
+}
+.footer__gratitude{
+   display: flex;
+   align-items: center;
+}
+.footer__gratitude p{
+    font-size: 1.4rem;
+    margin-right: 40px;
+}
+.footer__socialMedia-firt{
+    margin-left: 40px;
+}
+.footer__socialMedia-second {
+    margin-left: 40px;
+    margin-top: 10px;
+}

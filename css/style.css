@@ -46,13 +46,15 @@ header section {
     display: none;
 }
 header nav{
-    width: 90%;
+    width: 100%;
     height: 100%;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
 }
 header nav ul{
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +91,7 @@ header nav ul li{
 }
 .home_aboutme-description{
     font-size: 1.8rem;
-    line-height: 24px;
+    line-height: 27px;
     color: var(--description-color);
     margin-top: 20px;
     text-align: center;
@@ -121,8 +123,9 @@ header nav ul li{
 .description__card{
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 28px;
     color: var(--description-color);
+    margin-bottom: 30px;
 }
 .button{
     width: 100px;
@@ -210,72 +213,6 @@ header nav ul li{
     border: none;
 }
 
-/*Footer code starts here*/
-
-footer{
-    width: 100%;
-    height: 160px;
-    background-color: var(--prymari-color);
-    display: flex;
-    flex-direction: column;
-}
-.footer__socialMedia{
-    margin: 0 auto;
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-}
-.footer__socialMedia-firt{
-    display: flex;
-    align-items: center;
-}
-.footer__socialMedia-firt p{
-   color: var(--text-color);
-   font-size: 1.6rem;
-   margin-left: 10px;
-}
-.footer__socialMedia-firt .socialMedia__img{
-    background-image: url("https://img.icons8.com/cute-clipart/344/github.png");
-}
-.footer__socialMedia-second .socialMedia__img{
-    background-image: url("https://img.icons8.com/color/344/gmail-new.png");
-}
-
-.footer__socialMedia-second {
-    display: flex;
-    align-items: center;
-}
-
-.footer__socialMedia-second p{
-    color: var(--text-color);
-    font-size: 1.6rem;
-    margin-left: 10px;
-}
-.socialMedia__img{
-    width: 40px;
-    height: 40px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-footer p{
-    color: white;
-}
-
-.footer__gratitude{
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 10px;
-}
-
-.footer__gratitude p{
-    font-size: 1.2rem;
-    line-height: 18px;
-    color: var(--text-color);
-    text-align: center;
-}
-
 /* Here start the portafolio main */
 
 .portafolio__proyectos{
@@ -322,10 +259,6 @@ footer p{
     margin-top: 20px;
 }
 
-.description__card{
-    margin-bottom: 30px;
-}
-
 .portafolio__gratitude{
     padding-bottom: 20px;
     border-bottom: 1px solid var(--border-color);
@@ -340,6 +273,7 @@ footer p{
 
 .portafolio__gratitude-description{
     font-size: 1.6rem;
+    line-height: 28px;
     color: var(--description-perfil-color);
     text-align: center;
     margin-top: 20px;
@@ -566,4 +500,70 @@ h2 + p {
 }
 .main__ubuntu p:nth-child(8){
     margin-bottom: 100px;
+}
+
+/*Footer code starts here*/
+
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: var(--prymari-color);
+    display: flex;
+    flex-direction: column;
+}
+.footer__socialMedia{
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.footer__socialMedia-firt{
+    display: flex;
+    align-items: center;
+}
+.footer__socialMedia-firt p{
+   color: var(--text-color);
+   font-size: 1.6rem;
+   margin-left: 10px;
+}
+.footer__socialMedia-firt .socialMedia__img{
+    background-image: url("https://img.icons8.com/cute-clipart/344/github.png");
+}
+.footer__socialMedia-second .socialMedia__img{
+    background-image: url("https://img.icons8.com/color/344/gmail-new.png");
+}
+
+.footer__socialMedia-second {
+    display: flex;
+    align-items: center;
+}
+
+.footer__socialMedia-second p{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+.socialMedia__img{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer p{
+    color: white;
+}
+
+.footer__gratitude{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.footer__gratitude p{
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: var(--text-color);
+    text-align: center;
 }
