@@ -448,7 +448,7 @@ h2 + p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.main__ubuntu div, .main__liveServer div{
+.main__ubuntu div, .liveServer__content-info div{
 
     width: 100%;
     height: 300px;
@@ -460,18 +460,7 @@ h2 + p {
 .main__tutorial-content{
     margin-bottom: 30px;
 }
-.main__liveServer ol div:nth-child(2){
-    background-image: url("https://i.postimg.cc/ZqcH3DWL/live-Server1.jpg");
-}
-.main__liveServer ol div:nth-child(4){
-    background-image: url("https://i.postimg.cc/s2Grn7Rq/live-Server2.jpg");
-}
-.main__liveServer ol div:nth-child(6){
-    background-image: url("https://i.postimg.cc/Y0RK4x1G/live-Server3.jpg");
-}
-.main__liveServer ol div:nth-child(8){
-    background-image: url("https://i.postimg.cc/6q9FNGD9/live-Server4.jpg");
-}
+
 
 /* Here start the ubuntu tutorial page */
 
@@ -503,6 +492,24 @@ h2 + p {
 }
 .main__ubuntu p:nth-child(8){
     margin-bottom: 100px;
+}
+
+/* Here start the style for the ly server tutorial */
+
+.main__liveServer-content{
+    margin-bottom: 30px;
+}
+.liveServer__content-info div:nth-child(2){
+    background-image: url("https://i.postimg.cc/ZqcH3DWL/live-Server1.jpg");
+}
+.liveServer__content-info div:nth-child(4){
+    background-image: url("https://i.postimg.cc/s2Grn7Rq/live-Server2.jpg");
+}
+.liveServer__content-info div:nth-child(6){
+    background-image: url("https://i.postimg.cc/Y0RK4x1G/live-Server3.jpg");
+}
+.liveServer__content-info div:nth-child(8){
+    background-image: url("https://i.postimg.cc/6q9FNGD9/live-Server4.jpg");
 }
 
 /*Footer code starts here*/
@@ -727,6 +734,10 @@ footer p{
 
     /* Here start the blogs tablet style */
 
+    .main__blogs-title{
+        font-size: 2.6rem;
+    }
+
   .main__blogs .blogs__fiveFactors-image, .main__blogs .blogs__fourReasons-image{
     height: auto;
   }
@@ -742,13 +753,20 @@ footer p{
   .tutorial__ubuntuFile-image{
     height: 250px;
   }
+   /* Here start the portafolio style for tablet */
+
+   .main__tutorial h2{
+       font-size: 2.6rem;
+   }
 }
+
 @media screen and (min-width: 720px) and (max-width:940px){
     
     header nav ul li {
         margin-right: 30px;
     }
 }
+
 @media screen and (min-width: 840px) and (max-width:940px){
     
     .technology__used-first li, .technology__used-second li, .technology__used-third li{
