@@ -511,8 +511,12 @@ footer{
     width: 100%;
     height: 160px;
     background-color: var(--prymari-color);
+    
+}
+.footer__content{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .footer__socialMedia{
     margin: 0 auto;
@@ -615,6 +619,9 @@ footer p{
     /* Here start the footer */
     
     footer{
+        flex-direction: row;
+    }
+    .footer__content{
         flex-direction: row;
     }
     .footer__socialMedia{
@@ -729,6 +736,14 @@ footer p{
     .technology__used-first li, .technology__used-second li, .technology__used-third li{
         font-size: 2.2rem;
         line-height: 33px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__content{
+        width: 80%;
+
     }
     
 }
