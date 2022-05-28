@@ -117,7 +117,7 @@ header nav ul li{
 }
 .subtitle__card{
     font-size: 1.8rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--prymari-color);
     margin: 10 0 10 0;
 }
@@ -276,7 +276,7 @@ header nav ul li{
 .portafolio__gratitude-description{
     font-size: 1.6rem;
     line-height: 28px;
-    color: var(--description-perfil-color);
+    color: var(--description-color);
     text-align: center;
     margin-top: 20px;
 }
@@ -293,9 +293,10 @@ header nav ul li{
     text-align: center;
 }
 
-.portafolio__technology-used li{
+
+.technology__used-first li, .technology__used-second li, .technology__used-third li{
     font-size: 1.6rem;
-    color: var(--prymari-color);
+    color: var(--description-color);
     line-height: 24px;
     list-style: disc ;
     list-style-position: inside;
@@ -710,10 +711,24 @@ footer p{
     .portafolio__technology-title{
         font-size: 3.2rem;
     }
+    .portafolio__technology-content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
 }
 @media screen and (min-width: 720px) and (max-width:940px){
     
     header nav ul li {
         margin-right: 30px;
     }
+}
+@media screen and (min-width: 840px) and (max-width:940px){
+    
+    .technology__used-first li, .technology__used-second li, .technology__used-third li{
+        font-size: 2.2rem;
+        line-height: 33px;
+    }
+    
 }
