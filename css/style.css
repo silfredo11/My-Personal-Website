@@ -688,6 +688,7 @@ footer p{
     .card__content-info{
         width: 50%;
         padding-left: 20px;
+        padding-top: 10px;
     }
     .home__statistics{
         display: flex;
@@ -724,6 +725,23 @@ footer p{
         margin-top: 30px;
     }
 
+    /* Here start the blogs tablet style */
+
+  .main__blogs .blogs__fiveFactors-image, .main__blogs .blogs__fourReasons-image{
+    height: auto;
+  }
+  .main__tutorial .tutorial__myLiveServer-image{
+    width: 50%;
+  }
+  .main__tutorial .card__content-info{
+    width: 50%;
+  }
+  .tutorial__myLiveServer-image{
+    height: 250px;
+  }
+  .tutorial__ubuntuFile-image{
+    height: 250px;
+  }
 }
 @media screen and (min-width: 720px) and (max-width:940px){
     
