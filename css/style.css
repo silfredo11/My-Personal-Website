@@ -338,10 +338,10 @@ header nav ul li{
 
 /* Here start the fivefactore blog */
 
-.main__alcoholismo{
+.main__frustration{
     width: 100%;
 }
-.main__alcoholismo li {
+.main__frustration li {
     list-style-position: inside;
     font-size: 2rem;
     font-weight: 400;
@@ -349,13 +349,13 @@ header nav ul li{
     color: var(--content-color);
     margin-top: 20px;
 }
-.alcoholimos{
+.frustration{
     width: 100%;
 }
-.alcoholismo__content ol {
+.frustration__content ol {
     list-style-type: decimal-leading-zero;
 }
-.alcoholismo__content-background{
+.frustration__content-background{
     width: 100%;
     height: 585px;
     background-size: cover;
@@ -363,7 +363,7 @@ header nav ul li{
     background-repeat: no-repeat;
     margin-top: 30px;
 }
-.alcoholismo__coverPage-content{
+.frustration__coverPage-content{
     width: 100%;
     height: 350px;
     background-image: url("https://images.pexels.com/photos/3244604/pexels-photo-3244604.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -373,21 +373,21 @@ header nav ul li{
     display: flex;
     align-items: center;
 }
-.alcoholismo__coverPage-content h2{
+.frustration__coverPage-content h2{
     color: var(--text-color);
     font-weight: 700;
     font-size: 2.6rem;
     line-height: 36px;
     text-align: center;
 }
-.alcoholismo__content{
+.frustration__content{
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 95%;
     
 }
-.alcoholismo__content h3{
+.frustration__content h3{
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 35px;
@@ -396,27 +396,27 @@ header nav ul li{
     margin-top: 50px;
 }
 
-.alcoholismo__content p{
+.frustration__content p{
     font-size: 2rem;
     font-weight: 400;
     line-height: 32px;
     color: var(--content-color);
     margin-top: 20px;
 }
-.alcoholismo__content-skillDevelopment li {
+.frustration__content-skillDevelopment li {
     font-size: 2rem;
     line-height: 32px;
     font-weight: 700;
     color: var(--prymari-color);
 }
 
-.alcoholismo__content div:nth-child(6){
+.frustration__content div:nth-child(6){
     background-image: url("https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
-.alcoholismo__content div:nth-child(20){
+.frustration__content div:nth-child(20){
     background-image: url("https://static.platzi.com/media/user_upload/5%20claves%20que%20me%20ayudaron%20a%20superar%20la%20frustracion-401c7f9e-2115-40bd-baa2-a82a02637fb0.jpg");
 }
-.alcoholismo__content div:nth-child(33){
+.frustration__content div:nth-child(33){
     background-image: url("https://static.platzi.com/media/user_upload/nuevo%20enfoque%20fuera%20frustracion-05ab8737-c341-4b88-b368-a1aef0b583e8.jpg");
 }
 
@@ -999,5 +999,12 @@ footer p{
         font-size: 2rem;
         line-height: 38px;
 
+    }
+
+    /* Here start the frutration page */
+
+    .frustration__coverPage-content{
+        display: flex;
+        justify-content: center;
     }
 }
