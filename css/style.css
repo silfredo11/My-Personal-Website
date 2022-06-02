@@ -59,7 +59,7 @@ header nav ul{
     justify-content: space-between;
     align-items: center;
 }
-header nav ul li{
+header nav ul li a{
     color: var(--text-color);
     font-size: 1.3rem;
 }
@@ -606,7 +606,7 @@ footer p{
         height: 60px;
         border-radius: 50%;
     }
-    header section p {
+    header section p a{
         color: var(--text-color);
         font-size: 1.4rem;
         margin-left: 20px;
