@@ -1007,4 +1007,14 @@ footer p{
         display: flex;
         justify-content: center;
     }
+
+    /* Here start the tutorial style*/
+
+    .main__tutorial h2{
+        font-size: 2.6rem;
+    }
+    .main__tutorial p{
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
 }
