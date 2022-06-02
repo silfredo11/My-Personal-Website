@@ -874,22 +874,26 @@ footer p{
     
     .card__content{
         display: flex;
-        
+        width: 90%;
+        margin: 0 auto;
     }
 
     .card__content .picture__card {
-        width: 70%;
-        height: 500px;
+        width: 60%;
+        height: auto;
     }
 
     .card__content .picture__card img{
         height: 500px;
     }
     .card__content-info{
-        width: 30%;
+        width: 40%;
         padding-left: 20px;
         padding-top: 30px;
     }
+
+    /* Here start the stily for home statistics tablet */
+
     .home__statistics{
         display: flex;
         flex-direction: column;
@@ -897,8 +901,14 @@ footer p{
     }
 
     .home__statistics-table{
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         height: 400px;
+    }
+
+    .home__statistics-table p{
+        padding-top: 30px;
+        font-size: 1.6rem;
+        font-weight: 500;
     }
 }
 
