@@ -653,6 +653,43 @@ footer p{
         line-height: 24px;
     }
 
+    /* Here start the style for portafolio between tablet and desktop */
+
+    .portafolio__technology-title{
+        font-size: 3.2rem;
+    }
+    .portafolio__technology-content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .portafolio__technology-title{
+        font-size: 3.2rem;
+    }
+    .portafolio__technology-content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .portafolio__gratitude-title{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .portafolio__gratitude-description{
+        font-size: 2.2rem;
+        line-height: 33px;
+    }
+    .technology__used-first li, .technology__used-second li, .technology__used-third li{
+        font-size: 2.2rem;
+        line-height: 33px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:740px){
+    .technology__used-first li, .technology__used-second li, .technology__used-third li{
+        font-size: 1.8rem;
+        
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width:940px) {
@@ -739,16 +776,7 @@ footer p{
     .card__content .picture__card{
         width: 50%;
     }
-    .card__content-info{
-        width: 50%;
-        padding-left: 20px;
-        padding-top: 10px;
-    }
-    .home__statistics{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+ 
 
     /* Here start portafolio tablet style */
 
@@ -762,22 +790,13 @@ footer p{
         font-size: 3.2rem;
         text-align: center;
     }
-    .portafolio__gratitude-title{
-        font-size: 3.2rem;
-        text-align: center;
+    .card__content-info{
+        width: 50%;
+        padding:  10px 0 0 10px;
     }
-    .portafolio__gratitude-description{
-        font-size: 2.2rem;
-        line-height: 33px;
-    }
-    .portafolio__technology-title{
-        font-size: 3.2rem;
-    }
-    .portafolio__technology-content{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
+
+   
+
 
     /* Here start the blogs tablet style */
 
@@ -816,10 +835,7 @@ footer p{
 
 @media screen and (min-width: 840px) and (max-width:940px){
     
-    .technology__used-first li, .technology__used-second li, .technology__used-third li{
-        font-size: 2.2rem;
-        line-height: 33px;
-    }
+   
     footer{
         display: flex;
         justify-content: center;
@@ -910,5 +926,38 @@ footer p{
         font-size: 1.6rem;
         font-weight: 500;
     }
-}
 
+    /* Here start the style for portafolio page */
+    .portafolio__title{
+        font-size: 3.6rem;
+    }
+
+    .portafolio__proyectos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 550px);
+        gap: 40px;
+    }
+    .card__content{
+        width: 100%;
+        height: 600px;
+        flex-direction: column;
+    }
+    .card__content  .picture__card{
+        width: 100%;
+        height: 200px;
+    }
+    .card__content-info{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+    .description__card{
+        margin-top: 10px;
+    }
+    .portafolio__gratitude, .portafolio__technology{
+        padding: 60px 0;
+    }
+    
+}
