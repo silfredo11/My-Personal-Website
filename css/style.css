@@ -938,16 +938,16 @@ footer p{
         grid-template-rows: repeat(2, 550px);
         gap: 40px;
     }
-    .card__content{
+    .portafolio__proyectos-card{
         width: 100%;
         height: 600px;
         flex-direction: column;
-    }
-    .card__content  .picture__card{
+    } 
+    .portafolio__proyectos-card  .picture__card{
         width: 100%;
         height: 200px;
     }
-    .card__content-info{
+    .portafolio__proyectos-card .card__content-info{
         width: 100%;
         padding-left: 0;
         padding-right: 0;
