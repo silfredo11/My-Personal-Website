@@ -928,7 +928,7 @@ footer p{
     }
 
     /* Here start the style for portafolio page */
-    .portafolio__title, .main__blogs-title {
+    .portafolio__title, .main__blogs-title, .main__tutorial .main__tutorial-title{
         font-size: 3.6rem;
     }
 
@@ -974,4 +974,30 @@ footer p{
     .blogs__fiveFactors-title, .blogs__fourReasons-title{
         margin-top: 0;
     } 
+
+    /* Here start the tutorial page */ 
+
+    .main__tutorial-content .tutorial__ubuntuFile-image, .main__tutorial-content .tutorial__myLiveServer-image {
+        width: 60%;
+        height: 100%;
+    }
+    .main__tutorial-content .tutorial__ubuntuFile-card div:nth-child(2), .main__tutorial-content .tutorial__myLiveServer-card div:nth-child(2) {
+        width: 40%;
+    }
+    .tutorial__ubuntuFile-card{
+        margin-top: 40px;
+    }
+    .tutorial__ubuntuFile-card, .tutorial__myLiveServer-card{
+        height: 300px;
+    }
+
+    .tutorial__myLiveServer-card div:nth-child(2), .tutorial__ubuntuFile-card div:nth-child(2){
+        padding-top: 0;
+    }
+
+    .main__tutorial .tutorial__myLiveServer-description, .main__tutorial .tutorial__ubuntuFile-description{
+        font-size: 2rem;
+        line-height: 38px;
+
+    }
 }
