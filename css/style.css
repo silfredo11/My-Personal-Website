@@ -538,7 +538,10 @@ footer{
     display: flex;
     align-items: center;
 }
-.footer__socialMedia-firt p{
+.footer__socialMedia-firt p {
+    margin-left: 10px;
+ }
+.footer__socialMedia-firt p a{
    color: var(--text-color);
    font-size: 1.6rem;
    margin-left: 10px;
