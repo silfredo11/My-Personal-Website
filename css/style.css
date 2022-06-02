@@ -928,7 +928,7 @@ footer p{
     }
 
     /* Here start the style for portafolio page */
-    .portafolio__title{
+    .portafolio__title, .main__blogs-title {
         font-size: 3.6rem;
     }
 
@@ -959,5 +959,19 @@ footer p{
     .portafolio__gratitude, .portafolio__technology{
         padding: 60px 0;
     }
-    
+
+    /* Here start the style for blogs page */
+
+    .main__blogs-content{
+        margin-bottom: 40px;
+    }
+    .blogs__fourReasons-card{
+        margin-top: 40px;
+    }
+    .blogs__fiveFactors-card div:nth-child(2), .blogs__fourReasons-card div:nth-child(2) {
+        padding-top: 0px;
+    }
+    .blogs__fiveFactors-title, .blogs__fourReasons-title{
+        margin-top: 0;
+    } 
 }
