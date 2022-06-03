@@ -63,6 +63,9 @@ header nav ul li a{
     color: var(--text-color);
     font-size: 1.3rem;
 }
+header nav ul li:hover{
+    border-bottom: 1px solid var(--border-color);
+}
 
 /* Here start the main */
 
@@ -613,6 +616,9 @@ footer p{
         color: var(--text-color);
         font-size: 1.4rem;
         margin-left: 20px;
+    }
+    header section p a:hover{
+        border-bottom: 1px solid var(--border-color);
     }
     header nav{
         width: auto;
